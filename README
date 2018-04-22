@@ -1,0 +1,7 @@
+# chroot
+
+sudo apt-get install binutils debootstrap
+
+
+sudo /usr/sbin/debootstrap $(lsb_release -cs) ./ http://httpredir.debian.org/debian
+chroot ./
