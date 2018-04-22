@@ -1,0 +1,7 @@
+
+[submodule "usr/ports"]
+	path = usr/ports
+	url = https://github.com/openbsd/ports
+[submodule "usr/src"]
+	path = usr/src
+	url = git@github.com:openbsd/src.git
